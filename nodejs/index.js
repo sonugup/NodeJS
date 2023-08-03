@@ -8,10 +8,7 @@ const sever=http.createServer( (req,res) => {
     else if(req.url=="/test"){
         res.end("welcome to test page")
     }
-    
-    
-    
-    else{
+     else{
         res.end("try again")
     }
 })
